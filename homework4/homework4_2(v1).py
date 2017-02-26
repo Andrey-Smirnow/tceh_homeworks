@@ -1,7 +1,8 @@
-#Task 3 (var. 1)
+# Task 2 (var. 1)
 # Есть класс, который выводи информацию в консоль: `Printer`, у него есть метод:
 # log(*values). Написать класс FormattedPrinter, который выводит в консоль информацию,
 # окружая ее строками из *
+
 
 class Printer(object):
 
@@ -23,11 +24,6 @@ print()
 print(a.log(25, 'a', 34.2, [25, 34], True))
 print()
 print(b.log_with_stars(25, 'a', 34.2, [25, 34], True))
-
-
-
-
-
 
 
 
